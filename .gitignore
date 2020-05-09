@@ -1,0 +1,17 @@
+$ cat .gitignore
+#temporary folders that are generated during build
+*target*
+#*/*/target/*
+#*/*/*/target/*
+/log/*
+#eclipse project related file
+*/.project
+*/.classpath
+*/.metadata
+*/.settings*
+*.log
+*.new
+*.project*
+*.classpath*
+*.metadata*
+*.settings*
